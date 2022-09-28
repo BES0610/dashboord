@@ -1,0 +1,285 @@
+.asiedbar{
+    position: absolute;
+    left: 0px;
+    width: 180px;
+    height: 100%;
+}
+.HeadAside{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    font-size: large;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.HeadAside::before{
+    content: '';
+}
+.asiedbar .PointAside1{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    right: 23%;
+}
+.asiedbar .PointAside2{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 23%;
+}
+.PointAside3{
+    width: 9px;
+    height: 9px;
+    background-color: black;
+    position: absolute;
+    left: 48%;
+    top: 40px;
+    border-radius: 50%;
+}
+.ActCONA{
+    background-color: #eee;
+    width: 127px;
+    height: 28px;
+    border-radius: 6px;
+}
+.ContentAside ul{
+    margin-top: 30px;
+}
+.ContentAside ul li{
+    list-style: none;
+    margin: 9px;
+}
+.wrapper{
+    width:calc(100% - 198px) ;
+    height: 100%;
+    margin: 0px;
+    position: absolute;
+    left: 200px;
+}
+.header{
+    height: 50px;
+    width: 100%;
+
+}
+.SerchBtn input{
+    margin-top: 10px;
+    border: 2px solid #0000007a;
+    width: 115px;
+    border-radius: 7px;
+}
+.SerchBtn input:hover{
+    width: 150px;
+    transition: .5s;
+}
+.SerchBtn input:focus{
+    border: 0px;
+    height: 24px;
+}
+.SerchBtn i{
+    position: absolute;
+    left: 5px;
+    top: 14px;
+    color: #0000007a;
+}
+.SerchBtn input:hover i{
+    visibility: hidden;
+}
+.ProfileHead{
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    font-size: 21px;
+}
+.bellHead{
+    position: absolute;
+    right: 31px;
+    top: 15px;
+    font-size: 21px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* //////////////////////////// */
+.content{
+    background-color: #1b58d01c;
+    position: relative;
+    left: -21px;
+    width: 103%;
+    height: 820px;
+    padding: 15px;
+}
+.content .head{
+    position: relative;
+    top: 12px;
+    left: 16px;
+    font-size: 24px;
+    font-weight: 650;
+    width: calc(100% - 16px);
+    margin-bottom:30px ;
+}
+.content .linecontent1{
+    width: 40px;
+    height: 2.5px;
+    background-color: black;
+    position: absolute;
+    left: 32px;
+    top: 59px;
+}
+.content .linecontent2{
+    width: 80px;
+    height: 2.5px;
+    background-color: white;
+    position: absolute;
+    left: 55px;
+    top: 59px;
+}
+.sectionContant1{
+    width: calc(100% - 12px);
+    height: 315px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.sectionContant1 .box{
+    background-color: white;
+    height: 350px;
+    width: calc(100% / 3 - 21px);
+    border-radius: 6px;
+    margin: 7px;
+    float: left;
+    padding-bottom:8px ;
+}
+/* //////////////////////////////////////// */
+.sectionContant1 .box h3{
+    padding: 10px 0 10px 15px;
+
+}
+.sectionContant1 .box .siteControl p{
+    display: inline;
+    padding-left: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.siteControl .TextSiteCon{
+    font-weight: 400;
+    padding-left: 15px;
+}
+.sectionContant1 .box .siteControl select{
+    width: 80px;
+    height: auto;
+    border-radius: 4px;
+    background-color: rgb(64 65 236 / 88%);
+    float: right;
+    margin-right: 5px;
+}
+.sectionContant1 .box .siteControl input{
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius:4px;
+    border: 3px solid #eee;
+}
+.GenralInfo label,
+.GenralInfo input{
+    display: block;
+}
+.GenralInfo label{
+    margin: 10px 0 3px 15px;
+    font-weight: 200;
+
+}
+.GenralInfo input{
+margin-left: 15px;
+display: inline;
+}
+.INPOTBTN{
+    border: 0;
+    background-color:  white;
+    color: rgba(0, 0, 255, 0.826);
+    float: right;
+    display: inline;
+}
+.SecuratyInfo label{
+    margin: 10px 0 3px 15px;
+    font-weight: 500;
+    display: block;
+}
+.sectionContant1 .box .SecuratyInfo p{
+    display: inline;
+    padding-left: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.sectionContant1 .box .SecuratyInfo select{
+    width: 80px;
+    height: auto;
+    border-radius: 4px;
+    background-color: rgb(64 65 236 / 88%);
+    float: right;
+    margin-right: 5px;
+}
+.sectionContant1 .box .socialInfo p{
+    display: inline;
+    padding-left: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.sectionContant1 .box .socialInfo .SocialMedia{
+    margin: auto;
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #eee;
+}
+.sectionContant1 .box .socialInfo .SocialMedia .icoSocialInfo{
+    display: inline;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 15px;
+    color: #786f6f;
+    border-right: 1px solid #eee;
+}
+.sectionContant1 .box .socialInfo .SocialMedia .TextSocialInfo{
+    display: inline;
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #786f6f;
+}
+.sectionContant1 .box .widgetControl p{
+    display: inline;
+    padding-left: 15px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.widgetControl input,
+.widgetControl label{
+    margin: 5px 0 7px 15px;
+}
+.BackubControl input,
+.BackubControl label{
+    margin: 5px 0 7px 15px;
+}
+.BackubControl .BackubBoxes{
+    display: flex;
+    align-items: center;
+}
+.BackubControl .BackubBoxes button{
+    height: 50px;
+    width: calc(100% / 3 - 30px);
+    border: 1px solid #eee;
+    padding: 8px 5px 8px 5px;
+    text-align: center;
+    margin: 10px;
+}
+.BackubControl .BackubBoxes button:focus{
+    border: 3px solid rgba(0, 0, 255, 0.595);
+
+}

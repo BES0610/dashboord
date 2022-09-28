@@ -1,0 +1,256 @@
+.asiedbar{
+    position: absolute;
+    left: 0px;
+    width: 180px;
+    height: 100%;
+}
+.HeadAside{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    font-size: large;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.HeadAside::before{
+    content: '';
+}
+.asiedbar .PointAside1{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    right: 23%;
+}
+.asiedbar .PointAside2{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 23%;
+}
+.PointAside3{
+    width: 9px;
+    height: 9px;
+    background-color: black;
+    position: absolute;
+    left: 48%;
+    top: 40px;
+    border-radius: 50%;
+}
+.ActCONA{
+    background-color: #eee;
+    width: 127px;
+    height: 28px;
+    border-radius: 6px;
+}
+.ContentAside ul{
+    margin-top: 30px;
+}
+.ContentAside ul li{
+    list-style: none;
+    margin: 9px;
+}
+.wrapper{
+    width:calc(100% - 198px) ;
+    height: 100%;
+    margin: 0px;
+    position: absolute;
+    left: 200px;
+}
+.header{
+    height: 50px;
+    width: 100%;
+
+}
+.SerchBtn input{
+    margin-top: 10px;
+    border: 2px solid #0000007a;
+    width: 115px;
+    border-radius: 7px;
+}
+.SerchBtn input:hover{
+    width: 150px;
+    transition: .5s;
+}
+.SerchBtn input:focus{
+    border: 0px;
+    height: 24px;
+}
+.SerchBtn i{
+    position: absolute;
+    left: 5px;
+    top: 14px;
+    color: #0000007a;
+}
+.SerchBtn input:hover i{
+    visibility: hidden;
+}
+.ProfileHead{
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    font-size: 21px;
+}
+.bellHead{
+    position: absolute;
+    right: 31px;
+    top: 15px;
+    font-size: 21px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ///////////////////////////////////// */
+.content{
+    background-color: #1b58d01c;
+    position: relative;
+    left: -21px;
+    width: 103%;
+    height: auto;
+    padding: 15px;
+}
+.content .head{
+    position: relative;
+    top: 12px;
+    left: 16px;
+    font-size: 24px;
+    font-weight: 650;
+    width: calc(100% - 16px);
+    margin-bottom:30px ;
+}
+.content .linecontent1{
+    width: 40px;
+    height: 2.5px;
+    background-color: black;
+    position: absolute;
+    left: 32px;
+    top: 59px;
+}
+.content .linecontent2{
+    width: 80px;
+    height: 2.5px;
+    background-color: white;
+    position: absolute;
+    left: 55px;
+    top: 59px;
+}
+.sectionContant1{
+    width: calc(100% - 12px);
+    height: 180px;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+.sectionContant1 .box{
+    background-color: white;
+    height: 150px;
+    width: calc(110% / 6 - 42px);
+    border-radius: 6px;
+    margin: 7px;
+    float: left;
+    padding-bottom:8px ;
+}
+/* ////////////////////////////////// */
+.ALlboxes{
+    display: flex;
+}
+.boxes{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+.RightBox{
+    float: right;
+    width: 250px;
+    height: 390px;
+    background: white;
+    margin-right: 25px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.box1{
+    width: 100%;
+    height: 85%;
+}
+.box1 .icoFILE{
+    position: relative;
+    top: 3px;
+    left: 3px;
+    font-size: 15px;
+    color: rgb(114, 112, 112);
+}
+.box1 .img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    left: 33%;
+}
+.box1 p{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 23%;
+}
+.box2{
+    border-top: 1px solid #eee;
+}
+.box2 .Date{
+    color: rgb(114, 112, 112);
+    font-size: 13px;
+    display: inline;
+    float: left;
+    margin-left: 5px;
+}
+.box2 .MB{
+    color: rgb(114, 112, 112);
+    font-size: 13px;
+    display: inline;
+    float: right;
+    margin-right: 5px;
+}
+.RightBox .box1{
+    display: flex;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 10px;
+    width: 85%;
+    height: 70px;
+    margin: 10px;
+}
+.RightBox .box1 .Color{
+    background-color: rgba(36, 36, 92, 0.651);
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.RightBox .box1 .DivStatistc{
+    margin-left: 4px;
+    font-size: 17px;
+}
+.RightBox .box1 .CountStatistc{
+    margin-left: 4px;
+    color: rgb(114, 112, 112);
+    font-size: 15px;
+}
+.RightBox .box1 .StrodgStatistc{
+    color: rgb(114, 112, 112);
+}
+.RightBox .box1 i{
+padding: 8px;
+padding-left: 8px;
+
+}
+.Block2{
+    float: right;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.Block{
+    width: 100px;
+}
+h4{
+    padding: 8px;
+}

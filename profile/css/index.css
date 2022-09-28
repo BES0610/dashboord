@@ -1,0 +1,330 @@
+.asiedbar{
+    position: absolute;
+    left: 0px;
+    width: 180px;
+    height: 100%;
+}
+.HeadAside{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    font-size: large;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.HeadAside::before{
+    content: '';
+}
+.asiedbar .PointAside1{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    right: 23%;
+}
+.asiedbar .PointAside2{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 23%;
+}
+.PointAside3{
+    width: 9px;
+    height: 9px;
+    background-color: black;
+    position: absolute;
+    left: 48%;
+    top: 40px;
+    border-radius: 50%;
+}
+.ActCONA{
+    background-color: #eee;
+    width: 127px;
+    height: 28px;
+    border-radius: 6px;
+}
+.ContentAside ul{
+    margin-top: 30px;
+}
+.ContentAside ul li{
+    list-style: none;
+    margin: 9px;
+}
+.wrapper{
+    width:calc(100% - 198px) ;
+    height: 100%;
+    margin: 0px;
+    position: absolute;
+    left: 200px;
+}
+.header{
+    height: 50px;
+    width: 100%;
+
+}
+.SerchBtn input{
+    margin-top: 10px;
+    border: 2px solid #0000007a;
+    width: 115px;
+    border-radius: 7px;
+}
+.SerchBtn input:hover{
+    width: 150px;
+    transition: .5s;
+}
+.SerchBtn input:focus{
+    border: 0px;
+    height: 24px;
+}
+.SerchBtn i{
+    position: absolute;
+    left: 5px;
+    top: 14px;
+    color: #0000007a;
+}
+.SerchBtn input:hover i{
+    visibility: hidden;
+}
+.ProfileHead{
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    font-size: 21px;
+}
+.bellHead{
+    position: absolute;
+    right: 31px;
+    top: 15px;
+    font-size: 21px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ////////////////// */
+.content{
+    background-color: #1b58d01c;
+    position: relative;
+    left: -21px;
+    width: 103%;
+    height: 820px;
+    padding: 15px;
+}
+.content .head{
+    position: relative;
+    top: 12px;
+    left: 16px;
+    font-size: 24px;
+    font-weight: 650;
+    width: calc(100% - 16px);
+    margin-bottom:30px ;
+}
+.content .linecontent1{
+    width: 40px;
+    height: 2.5px;
+    background-color: black;
+    position: absolute;
+    left: 32px;
+    top: 59px;
+}
+.content .linecontent2{
+    width: 80px;
+    height: 2.5px;
+    background-color: white;
+    position: absolute;
+    left: 55px;
+    top: 59px;
+}
+.sectionContant1{
+    width: calc(100% - 12px);
+    height: auto;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+
+.sectionContant1 .Bigbox{
+    background-color: white;
+    height: 350px;
+    width: 95%;
+    border-radius: 6px;
+    margin: 10px;
+    padding:8px ;
+}
+.sectionContant1 .Smalbox{
+    background-color: white;
+    height: 350px;
+    width: 35%;
+    border-radius: 6px;
+    margin: 10px;
+    float: left;
+    padding-bottom:8px ;
+}
+.sectionContant1 .Largbox{
+    background-color: white;
+    height: 350px;
+    width: 59%;
+    border-radius: 6px;
+    margin: 7px;
+    float: left;
+    padding-bottom:8px ;
+}
+/* ////////////////////// */
+.sectionContant1 .box h3{
+    padding: 10px 0 10px 15px;
+
+}
+.sectionContant1 .box .siteControl p{
+    display: inline;
+    padding-left: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.sectionContant1 .box .siteControl select{
+    width: 80px;
+    height: auto;
+    border-radius: 4px;
+    background-color: rgb(64 65 236 / 88%);
+    float: right;
+    margin-right: 5px;
+}
+.INPOTBTN{
+    border: 0;
+    background-color:  white;
+    color: rgba(0, 0, 255, 0.826);
+    float: right;
+    display: inline;
+}
+.Bigbox {
+    display: flex;
+}
+.informationBox{
+    width: 100%;
+    display: flex;
+
+}
+.Bigbox  .ditalsBox{
+    border-right: 3px solid #eee;
+    width: 250px;
+height: 100%;
+display: inline;
+}  
+.Bigbox  img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 24px;
+}
+.Bigbox  .ditalsBox h4{
+    margin-left: 16px
+}
+
+.Bigbox  .ditalsBox p{
+    margin-left: 46px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.Bigbox  .ditalsBox .RING{
+    margin-left: 16px
+}
+.Bigbox  .ditalsBox .RING .ring1{
+    width: 150px;
+    background-color: #eee;
+    border-radius: 10px;
+    height: 5px;
+    position: absolute
+}
+.Bigbox  .ditalsBox .RING .ring2{
+    width: 80px;
+    background-color: blue;
+    border-radius: 10px;
+    height: 5px;
+    position: relative;
+}
+.infomationIco{
+    margin-left: 35px;
+    margin-top: 8px;
+}
+
+.Bigbox .ditalsBox2{
+    display: inline;
+    width: 100%;
+}
+.Bigbox .ditalsBox2 p{
+    margin-left: 130px;
+}
+.Bigbox .ditalsBox2 .mark div{
+    display: inline;
+}
+.Bigbox .ditalsBox2 .mark {
+    margin-left: 54px;
+}
+.Bigbox .ditalsBox2 .mark .allmarks{
+    margin-left: 80px;
+}
+.Bigbox .ditalsBox2 .mark .mark1{
+    font-weight: 100;
+    color: rgb(71, 71, 71);
+}
+.Bigbox .ditalsBox2 .mark .mark2{
+    font-weight: 600;
+}
+.sectionContant1 .Smalbox h2{
+    margin: 20px;
+}
+.sectionContant1 .Smalbox p{
+    margin-left: 20px;
+}
+.sectionContant1 .Smalbox .allBTN div{
+    display: inline;
+
+}
+.sectionContant1 .Smalbox .allBTN {
+    margin-left: 10px;
+}
+.sectionContant1 .Smalbox .allBTN div{
+    display: inline;
+
+}
+.sectionContant1 .Smalbox .allBTN .BTN{
+    background-color: #EEE;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+hr{
+    color: #eee;
+}
+.cont{
+    display: flex;
+    margin-left: 10px;
+}
+.sectionContant1 .Largbox h6{
+    margin: 0;
+    display: inline;
+    font-size: large;
+}
+.sectionContant1 .Largbox p{
+    display: inline;
+    margin: 0;
+}
+.sectionContant1 .Largbox  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline;
+}
+.sectionContant1 .Largbox  .img{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.sectionContant1 .Largbox  .text{
+    margin-left: 5px;
+}
+.sectionContant1 .Largbox  .TextRight{
+    margin-right: 15px;
+    float: right;
+}
